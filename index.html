@@ -1,310 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="RahulRam, Constructions">
-    <meta name="author" content="Rahul Reddy">
-    <title>Rahul Ram Constructions</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- header -->
-    <header>
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">          
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#">
-                    <!-- update correct logo -->
-                    <img id="logo" src="images/logo1.png" alt="Rahul Ram Constructions">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="RahulRam, Constructions">
+        <meta name="author" content="Rahul Reddy">
+        <title>Rahul Ram Constructions</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="0">
+        <!-- header -->
+        <header>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <!-- update correct logo -->
+                        <img id="logo" src="images/logo1.png" alt="Rahul Ram Constructions">
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link js-scroll-trigger dropdown-toggle" href="#services" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Open Plots Sale</a>
+                                    <a class="dropdown-item" href="#">Development/ Lease</a>
+                                </div>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#page-footer">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Image Slider -->
+            <div id="slides" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The Slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/background.png" alt="">
+                        <div class="carousel-caption">
+                            <h1 class="display-2">Kondapur</h1>
+                            <h3>Latest Project</h3>
+                            <a href="#projects" class="btn btn-outline-light btn-lg">View More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/background2.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/background3.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Left and Right controls -->
+                <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
                 </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarResponsive"                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link js-scroll-trigger" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#services" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Open Plots Sale</a>
-                                <a class="dropdown-item" href="#">Development/ Lease</a>
-                            </div>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#page-footer">Contact Us</a>
-                        </li>                        
-                    </ul>
-                </div>            
-            </div>
-        </nav>
-
-        <!-- Back to Top Button -->
-        <!-- <a id="back2Top" title="Back to top" href="#">&#10148;</a> -->
-<!-- 
-        <a id="backToTop" title="Scroll to top" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
-            <span class="screen-reader-text">Back to top</span>
-        </a> -->
-    </header>
-    <main>
-        <!-- Image Slider -->
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1"></li>
-                <li data-target="#slides" data-slide-to="2"></li>
-            </ul>
-
-            <!-- The Slideshow --> 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/background.png" alt="">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">Kondapur</h1>
-                        <h3>Latest Project</h3>
-                        <a href="#projects" class="btn btn-outline-light btn-lg">View More</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/background2.png" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/background3.jpg" alt="">
-                </div>
+                <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
 
-            <!-- Left and Right controls -->
-            <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-
-        <!-- About Section -->
-        <section class="about">
-            <div class="container padding">
-                <div class="row headline text-center">
-                    <div class="col-12">
-                        <h1 class="display-4">About</h1>
+            <!-- About Section -->
+            <section id="about">
+                <div class="container padding">
+                    <div class="row headline text-center">
+                        <div class="col-12">
+                            <h1 class="display-4">About</h1>
+                        </div>
+                        <hr>
                     </div>
-                    <hr>
-                </div> 
-                <div class="row">
-                    <div class="col-12">
-                        <p class="lead">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ullam commodi obcaecati labore hic officiis soluta deserunt adipisci asperiores officia maiores quo, ratione possimus nostrum excepturi! Impedit ea suscipit consequatur!
-                        </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="lead">
+                                Rahulram Constructions is a private firm established in 2017
+                            </p>
+                        </div>
                     </div>
-                </div>          
-            </div>
-        </section>
-
-        <!-- Three Column Section  -->
-        <section id="services" class="bg-light">
-        <div class="container padding">
-            <div class="row headline text-center">
-                <div class="col-12">
-                    <h1 class="display-4">Services</h1>
                 </div>
+            </section>
+
+            <!-- Three Column Section  -->
+            <section id="services" class="bg-light">
                 <hr>
-            </div> 
-            <div class="row text-center">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <i class="fas fa-map"></i>
-                    <h3>Open Plot Sale</h3>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <i class="fas fa-hard-hat"></i>
-                    <h3>Site Development</h3>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fas fa-drafting-compass"></i>
-                    <h3>Preconstruction Planning</h3>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-            </div>
-        </div>
-        </section>
-
-        
-
-        <!-- Projects -->
-        <section class="projects">
-            <div class="container padding" id="projects">
-                <div class="row headline text-center">
-                    <div class="col-12">
-                        <h1 class="display-4">Projects</h1>                    
+                <div class="container padding">
+                    <div class="row headline text-center">
+                        <div class="col-12">
+                            <h1 class="display-4">Services</h1>
+                        </div>
+                        <hr>
                     </div>
-                    <hr class="deep-purple accent-2 mb-2 mt-0 d-inline-block mx-auto">
-                </div>
-            </div>
-
-        
-        <!-- Cards -->
-        <div class="container">
-            <div class="row padding">
-                <div class="col-md-4">
-                    <div class="card shadow h-100">
-                        <img class="card-img-top" src="images/TheIcon.jpg" alt="Unable to load Image">
-                        <div class="card-body">
-                            <h3 class="card-title">The Icon</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <i class="fas fa-map"></i>
+                            <h3>Open Plot Sale</h3>
+                            <p>Well experienced in providing prime open lands and plots with clean title and no disputes for
+                                Sale in Hyderabad which gives you the best returns on Investment.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <i class="fas fa-hard-hat"></i>
+                            <h3>Site Development</h3>
+                            <p>Controlling the site work costs is crucial for a project's viability. We provide complete
+                                estimating and development service and detail it accordingly that suit your specific needs.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-drafting-compass"></i>
+                            <h3>Architecture Planning</h3>
+                            <p>We help you analyze, plan, design needs for the construction of your dream project. The
+                                purpose is to ensure that the project is clearly defined and it is definitely executable in
+                                all aspects of construction from all parities involved.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow h-100 bg-warning">
-                        <img class="card-img-top" src="images/project2.png" alt="Unable to load Image">
-                        <div class="card-body">
-                            <h3 class="card-title">Lahari</h3>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eum quibusdam veniam, in totam mollitia neque sapiente modi temporibus unde.</p>
-                            <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+            <hr>
+            </section>
+
+            <!-- Projects -->
+            <section class="projects">
+                <div class="container padding" id="projects">
+                    <div class="row headline text-center">
+                        <div class="col-12">
+                            <h1 class="display-4">Projects</h1>
+                        </div>
+                        <hr class="deep-purple accent-2 mb-2 mt-0 d-inline-block mx-auto">
+                    </div>
+                </div>
+
+
+                <!-- Cards -->
+                <!-- <div class="container">
+                    <div class="row padding">
+                        <div class="col-md-4 mb-sm-4">
+                            <div class="card shadow h-100">
+                                <img class="card-img-top" src="images/TheIcon.jpg" alt="Unable to load Image">
+                                <div class="card-body">
+                                    <h3 class="card-title">The Icon</h3>
+                                    <p class="card-text">Built with premium quality and fine detailing, situated in the
+                                        heart of city's IT hub of Kondapur.</p>
+                                    <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-sm-4">
+                            <div class="card shadow h-100 bg-warning">
+                                <img class="card-img-top" src="images/project2.png" alt="Unable to load Image">
+                                <div class="card-body">
+                                    <h3 class="card-title">Lahari</h3>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eum
+                                        quibusdam veniam, in totam mollitia neque sapiente modi temporibus unde.</p>
+                                    <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-sm-4">
+                            <div class="card shadow h-100">
+                                <img class="card-img-top" src="images/FriendsResidency.jpg" alt="Unable to load Image">
+                                <div class="card-body">
+                                    <h3 class="card-title">Friends Residency</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="container padding">
+                        <div class="row">
+                            <!-- Project 1 -->
+                            <div class="col-lg-6 mb-4 mb-sm-4">
+                                <div class="hover hover-3 text-white rounded"><img src="./images/TheIcon.jpg" alt="">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-3-content px-5 py-4">
+                                        <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span
+                                                class="font-weight-light">The Icon </span>Kondapur</h3>
+                                        <p class="hover-3-description small text-uppercase mb-0">Lorem ipsum dolor sit amet,
+                                            consectetur <br>adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project 2 -->
+                            <div class="col-lg-6">
+                                <div class="hover hover-3 text-white rounded"><img src="./images/FriendsResidency.jpg" alt="">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-3-content px-5 py-4">
+                                        <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span
+                                                class="font-weight-light">Friends Residency </span>Bandlaguda</h3>
+                                        <p class="hover-3-description small text-uppercase mb-0">Lorem ipsum dolor sit amet,
+                                            consectetur <br>adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+            
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow h-100">
-                        <img class="card-img-top" src="images/FriendsResidency.jpg" alt="Unable to load Image">
-                        <div class="card-body">
-                            <h3 class="card-title">Friends Residency</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="btn btn-outline-secondary">Locate Site</a>
+            </section>
+            <hr class="my-4">
+
+            <!-- Add scrolling effect to fixed background image -->
+            <!-- Fixed Background Image
+            <div class="fixed-background">
+                <div class="fixed-image">                    
+                </div>
+            </div> -->
+
+            <!-- Two Column Section -->
+            <section id="founder">
+                <div class="container text-center padding">
+                    <div class="row padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="images/photo.jpg" alt="" class="image-fluid">
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <h2>Founder</h2>
+                            <p>Venkat Reddy is a sole proprietor of the firm who holds a vast experience in Real Estate
+                                market and understands it's ins and outs. He has been in the industry from nearly past 20
+                                years.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-        </div> 
-        </section>
-        <hr class="my-4">
+            </section>
+        </main>
 
-        <!-- Fixed Background Image -->
-        <!-- <div class="fixed-background">
-            <div class="fixed-wrap">
-                <div class="fixed">                    
-                </div>
-            </div>
-        </div> -->
+        <!-- Footer -->
+        <footer class="page-footer pt-1 font-small fixed" id="page-footer">
 
-        <!-- Two Column Section -->
-        <section id="founder">
-            <div class="container text-center padding">
-                <div class="row padding">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <img src="images/photo.jpg" alt="" class="image-fluid">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <h2>Founder</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aspernatur dolore quisquam dolor debitis, illo asperiores doloremque. A, possimus accusamus!                        
+            <!-- Footer Links -->
+            <div class="container justify-content-center text-md-left mt-4">
+
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-12 col-lg-12 text-center col-xl-12 mx-auto mb-4">
+                        <!-- Links -->
+
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="hr-light  d-inline-block">
+                        <!-- <hr class="mb-2 mt-0  mx-auto" style="width: 60px;"> -->
+                        <p>
+                            <i class="fas fa-home mr-3"></i> Kondakkal, Lahari, Telangana, India
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope mr-4"></i> rahulramconstructions@gmail.com
+                        </p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 91 XXXXXXXX68
+                        </p>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> + 91 XXXXXXXX24
                         </p>
                     </div>
-                    
-                </div>
-            </div> 
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="page-footer pt-1 font-small fixed" id="page-footer">
-
-        <!-- Footer Links -->
-        <div class="container justify-content-center text-md-left mt-4">
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <!-- <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
-
-                    Content                   
-                    <h6 class="text-uppercase font-weight-bold ">Content</h6>
-                    <hr class="hr-light  d-inline-block">
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore nam expedita consequuntur veniam animi optio totam rerum perferendis voluptas!</p>
-                </div>
-
-                <hr class="clearfix w-100 d-md-none">
-
-                Grid column
-                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
-                    
-                    Links
-                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                    <hr class="hr-light  d-inline-block">                   
-
-                    <p>
-                        <a href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!">Help</a>
-                    </p>
-                </div> -->
-
-                <!-- Grid column -->
-                <div class="col-md-12 col-lg-12 text-center col-xl-12 mx-auto mb-4">
-                    <!-- Links -->
-                
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <hr class="hr-light  d-inline-block">
-                    <!-- <hr class="mb-2 mt-0  mx-auto" style="width: 60px;"> -->
-                    <p>
-                        <i class="fas fa-home mr-3"></i> Kondakkal, Lahari, Telangana, India
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope mr-4"></i> rahulramconstructions@gmail.com
-                    </p>
-                    <p>
-                        <i class="fas fa-phone mr-3"></i> + 91 9xxxxxxx
-                    </p>
-                    <p>
-                        <i class="fas fa-print mr-3"></i> + 91 97xxxxxxx
-                    </p>
                 </div>
             </div>
-        </div>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 bg-dark">
-            <div class="container">
-                <p class="m-0">&copy; Rahul Ram Constructions 2020</p>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 bg-dark">
+                <div class="container">
+                    <p class="m-0">&copy; Rahul Ram Constructions 2020</p>
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- Custom JavaScript -->
-    <script src="./js/script.js"></script>
-</body>
+        </footer>
+
+        <!-- Custom JavaScript -->
+        <script src="./js/script.js"></script>
+    </body>
 </html>
