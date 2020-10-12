@@ -35,9 +35,8 @@ main p {
 }
 
 .navbar {
-    /* overflow: hidden; */
+    overflow: hidden;
     /* transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out; */
     width: 100%;
     font-size: 1.1rem;
@@ -48,7 +47,7 @@ main p {
 }
 
 .navbar-nav li {
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .navbar-link {
@@ -56,12 +55,6 @@ main p {
     text-decoration: none;
 }
 
-/* Add logo */
-.navbar #logo {
-    font-size: 50px;
-    font-weight: bold;
-    transition: 0.4s;
-}
 
 .navbar-brand {
     height: 0 !important;
@@ -77,9 +70,9 @@ main p {
     height: 90vh;
     min-height: 350px;
     background: no-repeat center center scroll;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    /* -webkit-background-size: cover;  */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
     background-size: cover;
 }
 
