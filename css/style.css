@@ -65,7 +65,7 @@ main p {
 }
 
 .carousel-item {
-    height: 90vh;
+    height: 85vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     /* -webkit-background-size: cover;  */
@@ -80,9 +80,16 @@ main p {
     transform: translateY(-50%);
 }
 
-.carousel-caption h1 {
+.carousel-caption h1, h4{
     text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
+    /* text-shadow: 2px 2px 2px #000; */
+    /* text-shadow: -1px 0 0 #000000, 1px 1px 0 #000000,
+            2px -1px 0 #000000, 3px 0 0 #000000; */
+    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+            0 3px 0 #777777, 0 4px 0 #666666,
+            0 5px 0 #555555, 0 6px 0 #444444,
+            0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+            0 9px 10px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-control-prev {
@@ -217,12 +224,26 @@ main p {
   } */
 
 .page-footer {
-    background-color: #3f3f3f;
+    background-color: #233853f6; 
+    /* grey color - 3f3f3f */
     color: #d5d5d5;
 }
 
 .hr-light {
     border-top: 1px solid #d5d5d5;
+    padding-bottom: 20px;
     width: 20%;
-    align-items: center;
+    margin: auto;
+}
+
+#Mymodal {
+    padding-right: 17px;
+}
+
+.modal-content {
+    border-radius: 6px 6px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ffffff;padding: 10px;
 }
