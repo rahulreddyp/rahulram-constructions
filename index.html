@@ -1,10 +1,3 @@
-<?php
-    if($_POST["message"]) {
-        mail("rahulreddyp77@mailinator.com", "", $_POST["submit"], "rahulreddyp7@mailnator.com");
-    }
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -308,45 +301,36 @@
                         <p>
                             <i class="fas fa-home mr-3"></i> Plot No:2, Lahari Layout, Kondakal, Mokila Road, Shankarpally, Telangana, India - 501503
                         </p>
-                        <p>
-                            <i class="fas fa-envelope mr-4"></i> rahulramconstructions@gmail.com
-                        </p>
-                        <p>
-                            <i class="fas fa-phone mr-3"></i> + 91 XXXXXXXX68
-                        </p>
-                        <p>
-                            <i class="fas fa-print mr-3"></i> + 91 XXXXXXXX24
-                        </p>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold text-center">Get In Touch</h6>
                         <hr class="hr-light">
-                        <form id="contactUs" action="formdatahandler.php" method="POST" enctype="multipart/form-data" onsubmit="clearForm();">
-                            <!-- <div class="row">
-                                <div class="col-sm-6"> -->
+                        <form id="contactUs" action="https://formspree.io/f/mknpbzqy" method="POST">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label for="name">Name<span>*</span></label>
-                                        <input id="name" class="form-control" type="text" name="" placeholder="Enter your Name" required>                                
+                                        <label for="Name">Name<span>*</span></label>
+                                        <input id="Name" class="form-control" type="text" name="Name" size="20" placeholder="Enter your Name" required>                                
                                     </div>
-                                <!-- </div> -->
-                                <!-- <div class="col-sm-6"> -->
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <label for="Mobile">Mobile Number<span>*</span></label>
-                                        <input id="Mobile" class="form-control" type="tel" name="" placeholder="Enter your mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                        <input id="Mobile" class="form-control" type="tel" name="Mobile" placeholder="Enter your mobile number" pattern="/(7|8|9)\d{9}/" 
                                         size="10" maxlength="10" required>                                
                                     </div>
-                                <!-- </div> -->
-                            <!-- </div>                                                 -->
+                                </div>
+                            </div>                                                
                             <div class="form-group">
-                                <label for="email">Email<span>*</span></label>
-                                <input id="email" class="form-control" type="email" name="" placeholder="Enter your Email Address" required>
+                                <label for="Email">Email<span>*</span></label>
+                                <input id="Email" class="form-control" type="email" name="Email" placeholder="Enter your Email Address" required>
                             </div>
                             <div class="form-group">
-                                <label for="message">Message<span>*</span></label>
-                                <textarea class="form-control" id="message" rows="2" placeholder="Enter your message" size="30" required></textarea>
-                                <small class="form-text text-muted"><strong>Don't worry!</strong> We'll never share your details with anyone else.</small>
+                                <label for="Message">Message<span>*</span></label>
+                                <textarea class="form-control" id="Message" name="Message" rows="2" placeholder="Enter your message" size="30" required></textarea>
+                                <small class="form-text text-muted"><strong>Don't worry!</strong> We'll never misuse your details.</small>
                             </div>
-                            <button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#Mymodal">Submit</button>
+                            <button  type="submit" name="submit" class="btn btn-primary">Submit</button>
                         </form>
                         
                     </div>
