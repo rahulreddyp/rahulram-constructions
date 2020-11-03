@@ -236,14 +236,28 @@ main p {
     margin: auto;
 }
 
-#Mymodal {
-    padding-right: 17px;
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list li {
+    padding: 5px;
+    margin: 0 20px;
+    text-align: justify;
 }
 
-.modal-content {
-    border-radius: 6px 6px;
+.map-container{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+
 }
 
-.modal-header {
-    border-bottom: 1px solid #ffffff;padding: 10px;
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
