@@ -77,7 +77,11 @@
                         <!-- The Slideshow -->
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block" src="images/TheIcon-background.jpeg" alt="First Image">
+                                <picture>
+                                    <source srcset="images/TheIcon-background-mobile.jpg" media="(max-width: 414px)">
+                                        <img class="d-block img-fluid" src="images/TheIcon-background.jpeg" alt="First Image">
+                                </picture>
+                                
                                 <div class="carousel-caption">
                                     <h1>Kondapur</h1>
                                     <h4>Latest Project</h4>
